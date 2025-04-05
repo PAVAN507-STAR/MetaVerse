@@ -14,7 +14,7 @@ export class room1 extends Scene {
     preload() {
         this.load.image('floor-tile', '/assets/tile.png');
         for (let i = 0; i < 16; i++) {
-            this.load.image(`frame${i}, /assets/${i + 1}.png`);
+            this.load.image(`frame${i}`, `/assets/${i + 1}.png`);
         }
         this.input.addPointer(1);
         this.load.image('table', '/assets/table2.png');
